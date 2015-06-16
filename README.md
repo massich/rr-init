@@ -36,7 +36,6 @@ git remote add rr-initUPS git@github.com:massich/rr-init.git
     |- scratch/              # temporary files that can be safely deleted or lost
     |- src/                  # any programmatic code
     |
-    |- datapackage.json      # metadata for the (input and output) data files
     |- requirements.txt      # list of the required packages (see virtualenv)
     |
     |- LICENSE.md
@@ -64,11 +63,17 @@ Once the virtual environment exist on the system, the command `workon myPyProjec
 **Remember** to keep `requirements.txt` up to date.
 For more details regarding the usage of the virtual enviroment, please look at the [command reference].
 
+#### Use Sphinx to document properly this project
+
+* look at ``./doc/README.md`` and adapt the documentation to your needs
+* Modify this document to provide a summary of the project
+
+
 Todo
 ----
 
 ### General
-- [ ] Add sphinx documentation as project.io website
+- [x] Add sphinx documentation as project.io website
 - [ ] Add paper submodule
 - [ ] Add code modules
 - [ ] Add travis
